@@ -54,21 +54,13 @@ You can configure the app by setting the following environment variables (option
 
 ## Running the App
 
-1. **Start the Flask development server:**
+**Start the Flask development server:**
 
     ```bash
     flask run
     ```
 
     By default, the app will be accessible at `http://127.0.0.1:8000`.
-
-2. **Scrape Pokémon data:**
-
-    When the app starts, it will automatically scrape the first 151 Pokémon from the PokeAPI and save them in the database. You can trigger the scraping process manually by accessing:
-
-    ```bash
-    http://127.0.0.1:8000/scrape
-    ```
 
 ## API Endpoints
 
